@@ -72,17 +72,17 @@ h1 {
   width: 3.5in !important;
   height: 2in !important;
   background-position: 50% 50%;
-  background-size: 195%;
-  background-repeat: no-repeat;
-  background-color: transparent;
+  background-size: 200%;
+  background-repeat: no-repeat !important;
+  background-color: transparent !important;
   border-radius: 0.01in !important;
   box-shadow: .2in .2in .1in .1in rgba(0, 0, 66, 0.3) !important;
   margin: auto !important;
   display: flex !important;
   outline-color:rgba(60, 40, 85, 1) !important;
   outline-style: solid !important;
-  outline-width: 2px !important;
-  outline-offset: -1px;;
+  outline-width: 1px !important;
+
 }
 
 #front {
@@ -128,10 +128,10 @@ h1 {
   font-style: italic;
   font-weight: bold;
   filter: 
-    drop-shadow(.02in 0 0px rgba(218, 145, 0, 1))
-    drop-shadow(0 .02in 0px rgba(218, 145, 0, 1))
-    drop-shadow(-.02in 0 0px rgba(218, 145, 0, 1))
-    drop-shadow(0 -.02in 0px rgba(218, 145, 0, 1));
+    drop-shadow(.02in 0 0px rgba(222, 111, 0, 1))
+    drop-shadow(0 .02in 0px rgba(222, 111, 0, 1))
+    drop-shadow(-.02in 0 0px rgba(222, 111, 0, 1))
+    drop-shadow(0 -.02in 0px rgba(222, 111, 0, 1));
   z-index: 1;
 }
 
@@ -142,10 +142,10 @@ h1 {
   font-size: 16x;
   line-height: 95%;
   filter: 
-  drop-shadow(.01in 0 0px rgba(218, 145, 0, 1))
-  drop-shadow(0 .01in 0px rgba(218, 145, 0, 1))
-  drop-shadow(-.01in 0 0px rgba(218, 145, 0, 1))
-  drop-shadow(0 -.01in 0px rgba(218, 145, 0, 1));
+  drop-shadow(.01in 0 0px rgba(222, 111, 0, 1))
+  drop-shadow(0 .01in 0px rgba(222, 111, 0, 1))
+  drop-shadow(-.01in 0 0px rgba(222, 111, 0, 1))
+  drop-shadow(0 -.01in 0px rgba(222, 111, 0, 1));
   font-family: 'Sedgwick Ave Display', cursive;
 }
 
