@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3.5in" height="2in" viewBox="0 0 350 200">
+	<rect x="0" y="0" width="350" height="200" fill="#121212" />
+
+	<!-- Car silhouette -->
+	<path d="M50,160 C80,130 150,120 240,120 C330,120 400,130 350,160 L350,200 L0,200 Z" fill="#333333" />
+</svg>

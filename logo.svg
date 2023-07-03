@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="3.5in" height="2in" viewBox="0 0 350 200">
+	<!-- Background gradient -->
+	<linearGradient id="backgroundGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="200">
+		<stop offset="0%" stop-color="#252525" />
+		<stop offset="100%" stop-color="#434343" />
+	</linearGradient>
+	<rect x="0" y="0" width="350" height="200" fill="url(#backgroundGradient)" />
+
+	<!-- Car silhouette icon/emblem -->
+	<path d="M50,140 Q120,120 190,140 T260,140 Q320,120 260,100 L190,60 L50,100 Q-10,120 50,140 Z" fill="#303030" />
+
+	<!-- Headlights with gradient -->
+	<linearGradient id="headlightGradient" gradientUnits="userSpaceOnUse" x1="95" y1="131" x2="95" y2="139">
+		<stop offset="0%" stop-color="#FFFFFF" />
+		<stop offset="100%" stop-color="#D7D7D7" />
+	</linearGradient>
+	<circle cx="95" cy="135" r="4" fill="url(#headlightGradient)" />
+	<circle cx="165" cy="135" r="4" fill="url(#headlightGradient)" />
+
+	<!-- Windows with texture -->
+	<pattern id="windowTexture" patternUnits="userSpaceOnUse" width="20" height="20">
+		<rect width="20" height="20" fill="#FFFFFF" />
+		<circle cx="5" cy="5" r="2" fill="#E1E1E1" />
+		<circle cx="15" cy="15" r="2" fill="#E1E1E1" />
+	</pattern>
+	<path d="M120,105 Q130,100 140,105 L140,135 Q130,140 120,135 Z" fill="url(#windowTexture)" />
+
+	<!-- Wheel rims with gradient -->
+	<linearGradient id="wheelRimGradient" gradientUnits="userSpaceOnUse" x1="95" y1="147" x2="95" y2="163">
+		<stop offset="0%" stop-color="#808080" />
+		<stop offset="100%" stop-color="#FFFFFF" />
+	</linearGradient>
+	<circle cx="95" cy="155" r="8" fill="url(#wheelRimGradient)" />
+	<circle cx="165" cy="155" r="8" fill="url(#wheelRimGradient)" />
+
+	<!-- Wheel spokes -->
+	<g fill="#FFFFFF">
+		<rect x="90" y="148" width="4" height="6" />
+		<rect x="98" y="143" width="4" height="6" />
+		<rect x="106" y="138" width="4" height="6" />
+		<rect x="160" y="148" width="4" height="6" />
+		<rect x="152" y="143" width="4" height="6" />
+		<rect x="144" y="138" width="4" height="6" />
+	</g>
+
+	<!-- Business name with gradient -->
+	<linearGradient id="textGradient" gradientUnits="userSpaceOnUse" x1="0" y1="170" x2="0" y2="190">
+		<stop offset="0%" stop-color="#D7D7D7" />
+		<stop offset="100%" stop-color="#FFFFFF" />
+	</linearGradient>
+	<text x="50%" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="url(#textGradient)">Business Name</text>
+
+	<!-- Slogan -->
+	<text x="50%" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#D7D7D7">Professional Automotive Detailing</text>
+
+	<!-- Separator line -->
+	<line x1="20" y1="190" x2="330" y2="190" stroke="#D7D7D7" stroke-width="1" stroke-dasharray="2" />
+
+	<!-- Contact information -->
+	<text x="50%" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#D7D7D7">
+    Phone: (123) 456-7890 | Email: info@businessname.com | Website: www.businessname.com
+	</text>
+
+	<!-- Additional design elements -->
+	<circle cx="30" cy="140" r="6" fill="#D7D7D7" />
+	<circle cx="320" cy="40" r="6" fill="#D7D7D7" />
+	<rect x="180" y="160" width="20" height="40" fill="#D7D7D7" />
+
+	<!-- Texture overlay -->
+	<rect x="0" y="0" width="350" height="200" fill="url(#textureOverlay)" opacity="0.15" />
+
+</svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
