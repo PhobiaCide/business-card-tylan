@@ -1,15 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Expletus+Sans:wght@700&family=Racing+Sans+One&family=Sedgwick+Ave&family=Sedgwick+Ave+Display&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Expletus+Sans:wght@700&family=Racing+Sans+One&family=Sedgwick+Ave&family=Sedgwick+Ave+Display&display=swap');
-
-  * {
-    overflow: visible;!important
-  }
+* {
+  /* overflow: visible!important;*/
+}
 
 body {
-  color: rgba(60, 40, 85, 1);
+  color: rgba(50, 20, 80, 1);
   background-color: transparent;
   padding: auto;
   max-height: 100%;
+  font-family: "Sedgwick Ave Display", cursive;
 }
 
 table {
@@ -30,15 +30,14 @@ main {
 }
 
 footer {
-  position: absolute;
-  top: 1in;
-  left: 0;
-  right: 0;
+  position: relative;
+}
 
+span,
+section {
+  display: block;
 }
-span, section {
-display: block;
-}
+
 h1 {
   outline: 0px solid black;
 }
@@ -57,7 +56,10 @@ h1 {
 .overlay,
 .underlay {
   position: relative;
-  background-image: radial-gradient( rgba(0, 0, 0, .3) 70%, rgba(255, 215, 0, .3) 100%);
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.3) 70%,
+    rgba(255, 215, 0, 0.3) 100%
+  );
   left: 0;
   top: 0;
   right: 0;
@@ -76,27 +78,22 @@ h1 {
   background-repeat: no-repeat !important;
   background-color: transparent !important;
   border-radius: 0.01in !important;
-  box-shadow: .2in .2in .1in .1in rgba(0, 0, 66, 0.3) !important;
+  box-shadow: 0.2in 0.2in 0.1in 0.1in rgba(0, 0, 66, 0.3) !important;
   margin: auto !important;
   display: flex !important;
-  outline-color:rgba(60, 40, 85, 1) !important;
+  outline-color: rgba(50, 20, 80, 1) !important;
   outline-style: solid !important;
   outline-width: 1px !important;
-
 }
 
 #front {
-  background-image: url(front.svg);
-  image-rendering: optimizeQuality;
-  filter:
-    drop-shadow(0 0 .01in antiquewhite);
+  background-image: url(front.svg) !important;
+  image-rendering: optimizeQuality !important;
 }
 
 #back {
-  background-image: url(back.svg);
-  image-rendering: optimizeQuality;
-  filter:
-    drop-shadow(0 0 .01in antiquewhite);
+  background-image: url(back.svg) !important;
+  image-rendering: optimizeQuality !important;
 }
 
 .overlay {
@@ -123,15 +120,14 @@ h1 {
   line-height: 50%;
   text-align: center;
   font-size: 44px;
-  font-family: 'Racing Sans One', cursive;
+  font-family: "Racing Sans One", cursive;
   text-rendering: geometricPrecision;
   font-style: italic;
   font-weight: bold;
-  filter: 
-    drop-shadow(.02in 0 0px rgba(222, 111, 0, 1))
-    drop-shadow(0 .02in 0px rgba(222, 111, 0, 1))
-    drop-shadow(-.02in 0 0px rgba(222, 111, 0, 1))
-    drop-shadow(0 -.02in 0px rgba(222, 111, 0, 1));
+  filter: drop-shadow(0.01in 0 0px rgba(218, 145, 0, 1))
+    drop-shadow(0 0.02in 0px rgba(218, 145, 0, 1))
+    drop-shadow(-0.01in 0 0px rgba(218, 145, 0, 1))
+    drop-shadow(0 -0.01in 0px rgba(218, 145, 0, 1));
   z-index: 1;
 }
 
@@ -139,25 +135,42 @@ h1 {
   text-rendering: geometricPrecision !important;
   width: 3.5in;
   list-style-type: none;
-  font-size: 16x;
-  line-height: 95%;
-  filter: 
-  drop-shadow(.01in 0 0px rgba(222, 111, 0, 1))
-  drop-shadow(0 .01in 0px rgba(222, 111, 0, 1))
-  drop-shadow(-.01in 0 0px rgba(222, 111, 0, 1))
-  drop-shadow(0 -.01in 0px rgba(222, 111, 0, 1));
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 16px;
+  line-height: 50%;
+  filter: drop-shadow(0.01in 0 0px rgba(218, 145, 0, 1))
+    drop-shadow(0 0.02in 0px rgba(218, 145, 0, 1))
+    drop-shadow(-0.01in 0 0px rgba(218, 145, 0, 1))
+    drop-shadow(0 -0.01in 0px rgba(218, 145, 0, 1));
 }
 
 #phone-number {
   text-align: left;
 }
+
 #email {
   text-align: right;
 }
+
+#services {
+  margin: 0;
+  padding: 0;
+  line-height: 35%;
+  font-size: 18px;
+  filter: drop-shadow(0.01in 0 0px rgba(218, 145, 0, 1))
+    drop-shadow(0 0.02in 0px rgba(218, 145, 0, 1))
+    drop-shadow(-0.01in 0 0px rgba(218, 145, 0, 1))
+    drop-shadow(0 -0.01in 0px rgba(218, 145, 0, 1));
+}
+
 .services {
   font-size: 14px;
   margin-bottom: 5px;
+  filter: drop-shadow(0.01in 0 0px rgba(50, 20, 80, 1))
+    drop-shadow(0 0.02in 0px rgba(50, 20, 80, 1))
+    drop-shadow(-0.01in 0 0px rgba(50, 20, 80, 1))
+    drop-shadow(0 -0.01in 0px rgba(50, 20, 80, 1));
+  color: rgba(218, 145, 0, 1);
+  background-color: transparent; /* Adjust the background color as desired */
 }
 
 .website {
@@ -167,6 +180,29 @@ h1 {
 }
 
 #qr {
-  background-image: url("https://image-charts.com/chart?chs=150x150&cht=qr&choe=UTF-8&chl=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbx3JhKPewlRSXEuyN1hu09OzwfsBus69WoP2hLE0unGXwKevudjNl154HLAVypo1rvc%2Fexec");
-  position: relative;
+  background-image: url("placeholder_qr_code_image.jpg");
+  width: 150px;
+  height: 150px;
+
+  border-radius: 0.03in;
+}
+
+.orange-container,
+.purple-container {
+  border-radius: 1in;
+
+  margin: 0.1in;
+  padding: 0.03in;
+}
+
+.purple-container {
+  background-color: rgba(218, 145, 0, 1);
+  width: 0.75in;
+  line-height: 90%;
+}
+.orange-container {
+  height: 1.9in;
+  width: 2in;
+  background-color: rgba(50, 20, 80, .8);
+  border: 0px solid rgba(50, 20, 80, 1);
 }
