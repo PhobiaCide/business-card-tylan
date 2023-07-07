@@ -87,12 +87,12 @@ h1 {
 }
 
 #front {
-  background-image: url(front.svg) !important;
+  background-image: url(./front.svg) !important;
   image-rendering: optimizeQuality !important;
 }
 
 #back {
-  background-image: url(back.svg) !important;
+  background-image: url(./back.svg) !important;
   image-rendering: optimizeQuality !important;
 }
 
