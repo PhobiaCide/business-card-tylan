@@ -1,0 +1,32 @@
+{
+  "name": "business-card-tylan",
+  "version": "1.0.0",
+  "description": "A business card for Tylan",
+  "main": "index.html",
+  "scripts": {
+    "all": "npm run format-and-optimize",
+    "generate-all": "npm run generate-html && npm run generate-js",
+    "format-and-optimize": "npm run generate-all && npm run format-and-optimize-code",
+    "generate-html": "powershell -ExecutionPolicy Bypass -File ./assets/scripts/generateHTML.ps1",
+    "generate-js": "powershell -ExecutionPolicy Bypass -File ./assets/scripts/generateJS.ps1",
+    "format-and-optimize-code": "npm run format-code && npm run optimize-code",
+    "format-code": "prettier --write \"index.html\" \"./src/**/*.css\" \"./src/**/*.js\"",
+    "optimize-code": "uglifyjs ./src/JavaScript.js -o dist/JavaScript.js --beautify && html-minifier --input-dir ./dist --output-dir ./distno --file-ext html --collapse-whitespace --preserve-line-breaks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhobiaCide/business-card-tylan.git"
+  },
+  "author": "PhobiaCide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhobiaCide/business-card-tylan/issues"
+  },
+  "homepage": "https://github.com/PhobiaCide/business-card-tylan#readme",
+  "devDependencies": {
+    "html-minifier": "^4.0.0",
+    "prettier": "^3.0.2",
+    "purgecss": "^5.0.0",
+    "uglify-js": "^3.17.4"
+  }
+}
