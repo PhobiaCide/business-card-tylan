@@ -93,11 +93,21 @@ h1 {
 }
 
 #front {
+<<<<<<< HEAD:src/Stylesheet.css
   background-image: url(../assets/front.svg) !important;
 }
 
 #back {
   background-image: url(../assets/back.svg) !important;
+=======
+  background-image: url(./front.svg) !important;
+  image-rendering: optimizeQuality !important;
+}
+
+#back {
+  background-image: url(./back.svg) !important;
+  image-rendering: optimizeQuality !important;
+>>>>>>> dab498e522f7514725fd7d39b59f611176a33e54:style.css
 }
 
 .overlay {
